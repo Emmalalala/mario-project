@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: mario;
+    src: url(super-mario.ttf);
+}
+html, body{
+    font-family: mario;
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+    float: right;
+    color: red;
+}

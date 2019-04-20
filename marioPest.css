@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+html, 
+body{
+    background-color: green;
+    margin: 15px;
+    text-align: center;
+    font-family: mario;
+}
+@font-face{
+    font-family: mario;
+    src: url(super-mario.ttf);
+}
+input{
+    margin-top: 20px;
+}
+img{
+    max-height: 250px;
+    max-width: 80%;
+}
+h1{
+    display: inline-block;
+}
+.mainContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.imageOne, .imageTwo, .imageThree{
+    margin: auto 50px;
+    background-color: yellow;
+    border-radius: 10%;
+    padding: 5px;
+}
+.logo{
+    margin: 20px auto;
+    color: red;
+    background-color: white;
+    height: 120px;
+    width: 10%;
+    border: 5px solid red;
+    font-size: 50px;
+    border-radius: 100%;
+    padding: 35px;
+}
+span{
+    display: inline-block;
+    margin: 15px 70px;
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+}
+button{
+    background-color: black;
+    color: red;
+    padding: 5px;
+    font-family: mario;
+    font-size: 20px;
+    margin: 20px auto;
+}
+p{
+    font-family: mario;
+}
+#contact span{
+    position: relative;
+    display: block;
+    right: 400px;
+    text-align: left;
+}
+#contact{
+    margin-top: 50px;
+}
+.site{
+    text-decoration: none;
+    color: black;
+}
+.site:hover{
+    text-decoration: underline;
+    color: red;
+}
