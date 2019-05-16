@@ -79,3 +79,19 @@ p{
     text-decoration: underline;
     color: red;
 }
+
+
+@media screen and (max-width: 900px){
+    #contact{
+        position: relative;
+        right: 150px;
+        width: 70vw;
+    }
+    #m{
+        width: 60%;
+    }
+    .response{
+        position: relative;
+        right: 70px;
+    }
+}
